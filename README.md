@@ -1,3 +1,11 @@
+This mini Salesforce CRM project demonstrates my understanding of Salesforce fundamentals, including 
+Objects, Fields, Record Management, Reports, Dashboards, and basic CRM functionality. 
+This repo includes screenshots of hands-on work completed in Trailhead and the Salesforce playground.
+
+
+
+---
+
 # 🧩 Salesforce Mini-CRM — Custom Object, Flow Automation & Dashboard
 
 A Salesforce CRM setup demonstrating skills in configuration, process automation, and reporting.
