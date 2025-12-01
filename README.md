@@ -41,8 +41,27 @@ salesforce-mini-crm
 
 ---
 
-## 📸 Screenshots  
-(Add screenshots once built.)
+##  Features  
+- Custom Object: Contact Management
+- Custom Fields
+- List Views & Filters
+- Reports & Analytics
+- Dashboards
+
+---
+
+## Trailhead Progress
+Completed modules:
+- Salesforce Platform Basics
+- Reports & Dashboards for Lightning Experience
+
+---
+
+## Next Steps
+- Build a custom Salesforce CRM App
+- Add automation (Validation Rules, Flows)
+- Create advanced Reports & Dashboards
+- Upload a short demo video
 
 ---
 
