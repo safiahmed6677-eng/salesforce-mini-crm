@@ -65,5 +65,33 @@ Completed modules:
 
 ---
 
+## Screenshots
+
+### Custom Object
+![Object Setup](assets/customer_home)
+
+### Fields
+![Fields](assets/customer_profile_fields)
+
+### Page Layout
+![Page Layout](assets/customer_profile_page_layout)
+
+### List Views
+![List Views](assets/high_value_customers.png)
+
+### Flow Trigger
+![Flow Trigger](assets/flow_trigger_setup.png)
+
+### Flow Email Alert Action
+![Email Alert](assets/email_alert_element.png)
+
+### Email Template
+![Email Template](assets/email_template)
+
+### Email Received
+![Premium Email](assets/email_recieved.png)
+
+---
+
 ## CV Bullet  
 **Salesforce Mini-CRM (2025)** — created custom objects, automated case assignment using Flow, and built dashboards.
