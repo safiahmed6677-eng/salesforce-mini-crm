@@ -1,44 +1,80 @@
-This mini Salesforce CRM project demonstrates my understanding of Salesforce fundamentals, including 
-Objects, Fields, Record Management, Reports, Dashboards, and basic CRM functionality. 
-This repo includes screenshots of hands-on work completed in Trailhead and the Salesforce playground.
+⭐ Salesforce Mini CRM – Customer Premium Automation
 
-
+A hands-on Salesforce Admin project built in my Developer Org.
+This project demonstrates my ability to design data models, build automation, create email alerts, and structure Salesforce records for real business workflows.
 
 ---
 
-# 🧩 Salesforce Mini-CRM — Custom Object, Flow Automation & Dashboard
+🔹 Project Summary
 
-A Salesforce CRM setup demonstrating skills in configuration, process automation, and reporting.
+I built a Mini CRM system inside Salesforce with a custom object called Customer Profile.
+This CRM stores customer information and automatically sends an email notification when a customer becomes Premium.
+
+This project shows real Salesforce Admin skills including object customization, automation, and process design.
+
+---
+
+🔹 Features
+✔ Custom Object: Customer Profile
+
+Includes fields such as:
+
+Customer Full Name
+
+Customer Type
+
+Email
+
+Phone
+
+Status
+
+Notes
+
+✔ Page Layout Customization
+
+Clean customer info section
+
+Removed unused default fields
+
+Regrouped fields for usability
+
+✔ List Views
+
+All Customers
+
+Premium Customers
+
+Recent Customers
+
+✔ Automation (Record-Triggered Flow)
+
+When Status changes to Premium, Salesforce sends an automated email alert.
+
+✔ Email Template + Email Alert
+
+Classic email template with merge fields
+
+Email alert sent to the Salesforce Admin
+
+---
+
+🔹 Technical Architecture
+Customer Profile (Custom Object)
+       │
+       ├── Custom Fields (Email, Phone, Status, etc.)
+       │
+       ├── Page Layout
+       │
+       └── Record-Triggered Flow
+               ├── Trigger: Status = Premium
+               └── Action: Email Alert
 
 ---
 
 ## 🔧 Tools  
 - Salesforce Platform  
-- Salesforce Flow  
-- Trailhead  
-- Reports & Dashboards  
-
----
-
-## 🛠️ What This CRM Includes  
-- **Custom Object:** Customer  
-- **Custom Fields:** product, priority, status, contact details  
-- **Automation:** Flow for case assignment  
-- **Reports:** case summary  
-- **Dashboard:** case status + product insights  
-- **Screenshots:** setup, Flow, dashboard  
-
----
-
-## 📁 Repository Structure  
-salesforce-mini-crm
-│── screenshots/
-│ ├── custom_object.png
-│ ├── flow_overview.png
-│ ├── case_dashboard.png
-│── how-I-built-it.md
-└── README.md
-
+- Sale
 ---
 
 ##  Features  
