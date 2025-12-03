@@ -1,11 +1,11 @@
-⭐ Salesforce Mini CRM – Customer Premium Automation
+## ⭐ Salesforce Mini CRM – Customer Premium Automation
 
 A hands-on Salesforce Admin project built in my Developer Org.
 This project demonstrates my ability to design data models, build automation, create email alerts, and structure Salesforce records for real business workflows.
 
 ---
 
-🔹 Project Summary
+## 🔹 Project Summary
 
 I built a Mini CRM system inside Salesforce with a custom object called Customer Profile.
 This CRM stores customer information and automatically sends an email notification when a customer becomes Premium.
@@ -14,7 +14,7 @@ This project shows real Salesforce Admin skills including object customization, 
 
 ---
 
-🔹 Features
+## 🔹 Features
 ✔ Custom Object: Customer Profile
 
 Includes fields such as:
@@ -59,7 +59,7 @@ Email alert sent to the Salesforce Admin
 
 ---
 
-🔹 Technical Architecture
+## 🔹 Technical Architecture
 Customer Profile (Custom Object)
        │
        ├── Custom Fields (Email, Phone, Status, etc.)
@@ -93,11 +93,37 @@ Completed modules:
 
 ---
 
-## Next Steps
-- Build a custom Salesforce CRM App
-- Add automation (Validation Rules, Flows)
-- Create advanced Reports & Dashboards
-- Upload a short demo video
+## 🔹 Skills Demonstrated
+
+Salesforce Data Modeling
+
+Object Manager
+
+Custom Fields & Page Layouts
+
+List Views
+
+Record-Triggered Flows
+
+Email Templates & Alerts
+
+Testing Automation
+
+Salesforce Admin best practices
+
+---
+
+## 🔹 Next Steps
+
+Add Lead → Customer conversion
+
+Add Case Management
+
+Add Opportunity tracking
+
+Add Validation Rules
+
+Add dashboards using CRM Analytics
 
 ---
 
