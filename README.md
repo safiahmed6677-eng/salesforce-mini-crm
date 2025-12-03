@@ -68,13 +68,13 @@ Completed modules:
 ## Screenshots
 
 ### Custom Object
-![Object Setup](assets/customer_home)
+![Object Setup](assets/customer_home.png)
 
 ### Fields
-![Fields](assets/customer_profile_fields)
+![Fields](assets/customer_profile_fields.png)
 
 ### Page Layout
-![Page Layout](assets/customer_profile_page_layout)
+![Page Layout](assets/customer_profile_page_layout.png)
 
 ### List Views
 ![List Views](assets/high_value_customers.png)
@@ -86,7 +86,7 @@ Completed modules:
 ![Email Alert](assets/email_alert_element.png)
 
 ### Email Template
-![Email Template](assets/email_template)
+![Email Template](assets/email_template.png)
 
 ### Email Received
 ![Premium Email](assets/email_recieved.png)
