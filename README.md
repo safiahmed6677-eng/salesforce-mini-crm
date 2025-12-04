@@ -1,67 +1,60 @@
 # ⭐ Salesforce Mini CRM – Customer Premium Automation
 
-A complete Salesforce Admin project built inside a Developer Edition org.  
-This Mini-CRM demonstrates **data modelling, UI customisation, automation, email alerts, and workflow design** — showcasing real Salesforce Admin skills.
+A practical Salesforce Admin project that demonstrates **data modelling, custom UI design, automation, and email workflows** inside a Salesforce Developer Edition org.  
+This system manages customers, tracks their status, and automatically sends a notification when someone becomes **Premium**.
 
 ---
 
-## 🎯 Project Overview
+## 🔹 Project Summary
 
-A custom **Customer Profile CRM system** built in Salesforce.  
-Admins can store customer info, filter customers through list views, and automatically trigger a **Premium Notification Flow** that sends an email whenever a customer becomes Premium.
+This Mini CRM is built around a custom object called **Customer Profile**.  
+It captures important customer attributes, provides clean list views for filtering, and includes a working **Record-Triggered Flow** that fires an email alert whenever a customer becomes Premium.
+
+It reflects real workplace Salesforce admin responsibilities:  
+customising objects, building automation, designing clean layouts, and testing flows.
 
 ---
 
-## 🧩 Core Features
+## 🔹 Features
 
-### 🔹 1. Custom Object – Customer Profile
-Stores customer records with fields:
-
+### **1. Custom Object – Customer Profile**
+Includes fields for:
 - Customer Full Name  
 - Customer Type  
 - Email  
 - Phone  
-- Status (Regular / Premium)  
+- Status  
 - Notes  
 
----
+### **2. Clean Page Layout**
+- Organised into a single “Customer Details” section  
+- Grouped fields logically  
+- Removed unused default fields  
+- Optimised for quick reading and data entry  
 
-### 🔹 2. Page Layout Customisation
-- Clean *Customer Details* section  
-- Grouped fields by purpose  
-- Removed unused defaults  
-- Improved visual layout and usability  
-
----
-
-### 🔹 3. Custom List Views
+### **3. Custom List Views**
 - **All Customers**  
-- **Premium Customers** (Status = Premium)  
-- **Recent Customers** (sorted by Created Date)  
+- **Premium Customers**  
+- **Recent Customers** (sorted by Created Date)
 
-Each list view contains optimised displayed fields.
+Each list view includes only relevant fields for easy scanning.
 
----
+### **4. Automation – Premium Notification Flow**
+Record-Triggered Flow that:
+- Detects when **Status** changes to *Premium*  
+- Sends a personalised **Email Alert** to the admin  
+- Uses merge fields (Name, Email, Phone, Type)
 
-### 🔹 4. Record-Triggered Flow – Premium Notification
-Flow automatically:
+Flow is fully tested and functional.
 
-- Detects when **Status changes to Premium**  
-- Sends an **Email Alert** to the Salesforce admin  
-- Includes merge fields (Name, Email, Phone, etc.)  
-- Fully tested in the Developer Org  
-
----
-
-### 🔹 5. Email Template + Email Alert
-- Classic email template  
-- Merge fields for customer info  
-- Triggered via the Flow  
-- Delivered instantly to admin inbox  
+### **5. Email Template + Email Alert**
+- Classic email template with merge fields  
+- Email alert configured and connected to the flow  
+- Uses the Salesforce org email system  
 
 ---
 
-## 🛠 Tools & Technologies
+## 🛠 Tools & Platform
 
 - Salesforce Lightning Experience  
 - Object Manager  
@@ -69,7 +62,6 @@ Flow automatically:
 - Email Alerts  
 - Classic Email Templates  
 - List Views  
-- Developer Edition Org  
 
 ---
 
@@ -82,25 +74,24 @@ Flow automatically:
 
 ## 🧠 Skills Demonstrated
 
-- Salesforce Data Modelling  
-- Object & Field Creation  
-- Page Layout Design  
-- List View Filters  
+- Data Modelling  
+- Custom Object + Field Creation  
+- Page Layout & UI Design  
+- List View Configuration  
 - Record-Triggered Flow Automation  
 - Email Templates & Alerts  
-- Testing Automation  
-- Admin best practices  
+- Testing & Debugging  
+- Admin Best Practices  
 
 ---
 
-## 🚀 Next Steps (Future Enhancements)
+## 🚀 Next Steps
 
-- Lead → Customer Conversion  
-- Case Management  
-- Opportunity Tracking  
-- Validation Rules  
-- CRM Analytics dashboards  
-- Role-based permissions
+- Add Lead → Customer conversion  
+- Add Case Management  
+- Add Opportunity tracking  
+- Add Validation Rules  
+- Create dashboards (CRM Analytics)  
 
 ---
 
