@@ -1,129 +1,106 @@
-## ⭐ Salesforce Mini CRM – Customer Premium Automation
+# ⭐ Salesforce Mini CRM – Customer Premium Automation
 
-A hands-on Salesforce Admin project built in my Developer Org.
-This project demonstrates my ability to design data models, build automation, create email alerts, and structure Salesforce records for real business workflows.
-
----
-
-## 🔹 Project Summary
-
-I built a Mini CRM system inside Salesforce with a custom object called Customer Profile.
-This CRM stores customer information and automatically sends an email notification when a customer becomes Premium.
-
-This project shows real Salesforce Admin skills including object customization, automation, and process design.
+A complete Salesforce Admin project built inside a Developer Edition org.  
+This Mini-CRM demonstrates **data modelling, UI customisation, automation, email alerts, and workflow design** — showcasing real Salesforce Admin skills.
 
 ---
 
-## 🔹 Features
-✔ Custom Object: Customer Profile
+## 🎯 Project Overview
 
-Includes fields such as:
-
-Customer Full Name
-
-Customer Type
-
-Email
-
-Phone
-
-Status
-
-Notes
-
-✔ Page Layout Customization
-
-Clean customer info section
-
-Removed unused default fields
-
-Regrouped fields for usability
-
-✔ List Views
-
-All Customers
-
-Premium Customers
-
-Recent Customers
-
-✔ Automation (Record-Triggered Flow)
-
-When Status changes to Premium, Salesforce sends an automated email alert.
-
-✔ Email Template + Email Alert
-
-Classic email template with merge fields
-
-Email alert sent to the Salesforce Admin
+A custom **Customer Profile CRM system** built in Salesforce.  
+Admins can store customer info, filter customers through list views, and automatically trigger a **Premium Notification Flow** that sends an email whenever a customer becomes Premium.
 
 ---
 
-## 🔹 Technical Architecture
-Customer Profile (Custom Object)
-       │
-       ├── Custom Fields (Email, Phone, Status, etc.)
-       │
-       ├── Page Layout
-       │
-       └── Record-Triggered Flow
-               ├── Trigger: Status = Premium
-               └── Action: Email Alert
+## 🧩 Core Features
+
+### 🔹 1. Custom Object – Customer Profile
+Stores customer records with fields:
+
+- Customer Full Name  
+- Customer Type  
+- Email  
+- Phone  
+- Status (Regular / Premium)  
+- Notes  
 
 ---
 
-## 🔧 Tools  
-- Salesforce Platform  
-- Sale
----
-
-##  Features  
-- Custom Object: Contact Management
-- Custom Fields
-- List Views & Filters
-- Reports & Analytics
-- Dashboards
+### 🔹 2. Page Layout Customisation
+- Clean *Customer Details* section  
+- Grouped fields by purpose  
+- Removed unused defaults  
+- Improved visual layout and usability  
 
 ---
 
-## Trailhead Progress
-Completed modules:
-- Salesforce Platform Basics
-- Reports & Dashboards for Lightning Experience
+### 🔹 3. Custom List Views
+- **All Customers**  
+- **Premium Customers** (Status = Premium)  
+- **Recent Customers** (sorted by Created Date)  
+
+Each list view contains optimised displayed fields.
 
 ---
 
-## 🔹 Skills Demonstrated
+### 🔹 4. Record-Triggered Flow – Premium Notification
+Flow automatically:
 
-Salesforce Data Modeling
-
-Object Manager
-
-Custom Fields & Page Layouts
-
-List Views
-
-Record-Triggered Flows
-
-Email Templates & Alerts
-
-Testing Automation
-
-Salesforce Admin best practices
+- Detects when **Status changes to Premium**  
+- Sends an **Email Alert** to the Salesforce admin  
+- Includes merge fields (Name, Email, Phone, etc.)  
+- Fully tested in the Developer Org  
 
 ---
 
-## 🔹 Next Steps
+### 🔹 5. Email Template + Email Alert
+- Classic email template  
+- Merge fields for customer info  
+- Triggered via the Flow  
+- Delivered instantly to admin inbox  
 
-Add Lead → Customer conversion
+---
 
-Add Case Management
+## 🛠 Tools & Technologies
 
-Add Opportunity tracking
+- Salesforce Lightning Experience  
+- Object Manager  
+- Flow Builder  
+- Email Alerts  
+- Classic Email Templates  
+- List Views  
+- Developer Edition Org  
 
-Add Validation Rules
+---
 
-Add dashboards using CRM Analytics
+## 📘 Trailhead Modules Completed
+
+- Salesforce Platform Basics  
+- Reports & Dashboards for Lightning Experience  
+
+---
+
+## 🧠 Skills Demonstrated
+
+- Salesforce Data Modelling  
+- Object & Field Creation  
+- Page Layout Design  
+- List View Filters  
+- Record-Triggered Flow Automation  
+- Email Templates & Alerts  
+- Testing Automation  
+- Admin best practices  
+
+---
+
+## 🚀 Next Steps (Future Enhancements)
+
+- Lead → Customer Conversion  
+- Case Management  
+- Opportunity Tracking  
+- Validation Rules  
+- CRM Analytics dashboards  
+- Role-based permissions
 
 ---
 
@@ -153,7 +130,4 @@ Add dashboards using CRM Analytics
 ### Email Received
 ![Premium Email](assets/email_recieved.png)
 
----
 
-## CV Bullet  
-**Salesforce Mini-CRM (2025)** — created custom objects, automated case assignment using Flow, and built dashboards.
