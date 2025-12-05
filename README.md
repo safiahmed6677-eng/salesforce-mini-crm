@@ -160,4 +160,4 @@ This demonstrates real-world automation used in CRMs.
 ### Email Received
 ![Premium Email](assets/email_recieved.png)
 
-
+---
